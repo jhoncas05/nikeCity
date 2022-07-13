@@ -1,0 +1,31 @@
+/*banner*/
+.banner {
+    background-image: url("../img/jordan1.jpg");
+    padding: 15% 30% 35% 7%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.45;
+    z-index: -1;
+}
+
+/*Fuente*/
+.fuente {
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Overpass Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
